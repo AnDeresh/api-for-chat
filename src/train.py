@@ -171,7 +171,7 @@ class ModelTrainer:
         """
         try:
             # Create output directory (auto-create if doesn't exist)
-            output_dir = Path(f"output_lora/{speaker}")
+            output_dir = Path(f"../output_lora/{speaker}")
             output_dir.mkdir(parents=True, exist_ok=True)
             
             print(f"Starting training for {speaker}...")

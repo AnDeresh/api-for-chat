@@ -7,7 +7,7 @@ from pathlib import Path
 class DialogParser:
     """Class for processing dialogs and filtering messages by user."""
     
-    def __init__(self, data_dir: str = "data"):
+    def __init__(self, data_dir: str = "../data"):
         """
         Initialize parser.
         
