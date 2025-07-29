@@ -2,6 +2,22 @@
 
 Microservice for fine-tuning LLM model on personal messages using LoRA.
 
+## Project Structure
+
+```
+api-for-chat/
+├── src/
+│   ├── main.py              # FastAPI endpoints
+│   ├── parser.py            # Dialog processing
+│   └── train.py             # LoRA training logic
+├── examples/
+│   └── chat.json            # Example dialog
+├── data/                    # Filtered messages (auto-created)
+├── output_lora/             # Trained models (auto-created)
+├── requirements.txt         # Dependencies
+└── README.md                # Documentation
+```
+
 ## Installation
 
 1. Clone repository:
@@ -75,19 +91,3 @@ curl -X POST "http://localhost:8000/train?speaker=User1"
 - **GPU:** Recommended (12GB+ VRAM)
 - **Python:** 3.10+
 - **Storage:** ~20GB
-
-## Project Structure
-
-```
-api-for-chat/
-├── src/
-│   ├── main.py              # FastAPI endpoints
-│   ├── parser.py            # Dialog processing
-│   └── train.py             # LoRA training logic
-├── examples/
-│   └── chat.json            # Example dialog
-├── data/                    # Filtered messages (auto-created)
-├── output_lora/             # Trained models (auto-created)
-├── requirements.txt         # Dependencies
-└── README.md                # Documentation
-```
