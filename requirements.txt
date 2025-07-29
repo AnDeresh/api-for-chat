@@ -1,0 +1,15 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+peft==0.8.2
+transformers==4.37.2
+torch==2.1.1
+accelerate==0.26.1
+datasets==2.16.1
+tokenizers==0.15.0
+tqdm==4.66.1
+numpy==1.24.3
+pandas==2.0.3
+
+# For CUDA support:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121

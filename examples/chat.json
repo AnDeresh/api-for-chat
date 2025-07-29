@@ -1,0 +1,19 @@
+{
+  "dialog": [
+    { "speaker": "User1", "content": "Hey! How's it going?" },
+    { "speaker": "User2", "content": "Pretty good, thanks! How about you?" },
+    { "speaker": "User1", "content": "Not bad at all. Wanna grab some coffee later?" },
+    { "speaker": "User2", "content": "Sounds great! What time works for you?" },
+    { "speaker": "User1", "content": "How about 3 PM at that place downtown? I usually go there after work anyway." },
+    { "speaker": "User2", "content": "Perfect! See you there." },
+    { "speaker": "User1", "content": "Awesome! Oh btw, I watched this amazing movie last night - totally mind-blowing stuff." },
+    { "speaker": "User2", "content": "Which one? Now I'm curious!" },
+    { "speaker": "User1", "content": "I'll tell you all about it when we meet - don't wanna spoil anything here, you know?" },
+    { "speaker": "User2", "content": "Fair enough, looking forward to it! 😊" },
+    { "speaker": "User1", "content": "Yeah, it's gonna be epic! So what are you up to right now?" },
+    { "speaker": "User2", "content": "Just reading this really engaging book." },
+    { "speaker": "User1", "content": "Nice! I'm a huge bookworm too, especially sci-fi stuff. What's the book about?" },
+    { "speaker": "User2", "content": "It's a mystery novel - I won't tell you the title, try to guess when we meet!" },
+    { "speaker": "User1", "content": "Ooh, intriguing! Challenge accepted. Can't wait to see you then!" }
+  ]
+}

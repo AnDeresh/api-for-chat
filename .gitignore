@@ -1,0 +1,6 @@
+﻿venv/
+__pycache__/
+
+# Data and models
+data/
+output_lora/
