@@ -1,4 +1,4 @@
-# LLM Reincarnation Service
+# API for chat
 
 Microservice for fine-tuning LLM model on personal messages using LoRA.
 
