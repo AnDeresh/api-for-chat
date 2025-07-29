@@ -80,7 +80,7 @@ class ModelTrainer:
     
     def train_model(self, messages: List[str], speaker: str) -> Dict[str, Any]:
         """Complete training pipeline."""
-        output_dir = Path(f"../output_lora/{speaker}").resolve()  # Resolve absolute path
+        output_dir = Path(f"../output_lora/{speaker}").resolve()
         output_dir.mkdir(parents=True, exist_ok=True)
         
         print(f"Training {speaker} on {len(messages)} messages...")
